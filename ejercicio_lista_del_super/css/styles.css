@@ -1,0 +1,9 @@
+hr {
+    padding: .1em 0;
+    background-color: black;
+}
+
+img {
+    width: 50px;
+    border: 1px solid black;
+}
