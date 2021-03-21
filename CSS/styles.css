@@ -1,0 +1,48 @@
+body {
+    background: rgb(219, 164, 116);
+}
+
+span {
+    color: yellow;
+}
+
+/* ------------------SELECTORES------ */
+/* p {
+    color: green;
+    color:rgb(0, 255, 255);
+}
+
+.texto{
+    font-size: 30px;
+    color: red;
+}
+
+#parrafo{
+    font-size: 60px;
+    color: blue;
+}
+
+p.combinado{
+    font-size: 90px;
+} */
+
+/* ----------------------MODELO DE CAJA -------------------*/
+
+.caja{
+    border: 3px solid red;
+    /* margin: arriba derecha abajo izquierda */
+    margin: 30px 50px 10px 50px;
+
+    /* margin:(arriba, abajo) (izquierda, derecha) */
+    margin: 30px 50px;
+
+    /* margin: todos los lados iguales */
+    margin: 50px;
+}
+
+p.box{
+    border: 3px dashed blue;
+    margin: 0;
+
+    padding: 15px ;
+}

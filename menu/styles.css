@@ -1,0 +1,32 @@
+
+body {
+    background-color: #fefefe;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    width: 150px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 0 15px 0 0 ;
+    padding: 10px;
+    background-color: rgb(189, 136, 238);
+    color: white;
+    /* border-radius: arriba a la izquierda, arriba a la derecha, abajo a la derecha, abajo a la izquierda  */
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+/* Pesudo Clases-> definir el estilo de un estado */
+
+li:hover{
+    background-color: rebeccapurple;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
